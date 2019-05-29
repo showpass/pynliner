@@ -40,7 +40,6 @@ from .soupselect import select
 try:
     from urllib.parse import urljoin
     from urllib.request import urlopen
-    unicode = str
 except ImportError:
     from urlparse import urljoin
     from urllib2 import urlopen
